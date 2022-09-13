@@ -93,6 +93,14 @@ docker image pull nginx:latest
 			<td> $ docker ps -a </td>
 			<td> verify if the container is running </td>
 		</tr>
+		<tr>
+			<td> $ docker system prune -a </td>
+			<td> delete all containers </td>
+		</tr>
+		<tr>
+			<td> $ docker logs 1234 </td>
+			<td> get logs from container passing the container four first id digits </td>
+		</tr>
 	</tbody>
 </table>
 
