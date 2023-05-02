@@ -101,6 +101,10 @@ docker image pull nginx:latest
 			<td> $ docker logs 1234 </td>
 			<td> get logs from container passing the container four first id digits </td>
 		</tr>
+		<tr>
+			<td> $ docker stop <container_id> </td>
+			<td> kill container (container_id) can be retrieved with the command `docker ps`</td>
+		</tr>
 	</tbody>
 </table>
 
