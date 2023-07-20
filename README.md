@@ -109,3 +109,28 @@ docker image pull nginx:latest
 </table>
 
 <br>
+
+## Samples
+
+<table>
+	<theader>
+		<th>Context</th>
+		<th>Command</th>
+	</theader>
+	<tbody>
+		<tr>
+			<td> SQL Server </td>
+			<td> 
+				docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=P@ssw0rd' ` --hostname sql2017cu11 ` -p 1433:1433 ` -v sqlvolume:/var/opt/mssql ` --name sql2017cu11 -d mcr.microsoft.com/mssql/server:2017-CU11-ubuntu
+			</td>
+		</tr>
+		<tr>
+			<td> NATs </td>
+			<td> 
+				docker run -p 4222:4222 nats "-js"
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<br>
